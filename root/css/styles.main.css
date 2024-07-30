@@ -1,0 +1,364 @@
+/*----------------------------------- PORTADA ----------------------------------------*/
+
+
+.flex {
+    display: flex;
+}
+
+.contenedor-portada {
+   justify-content:space-between; 
+   width: 80vw;
+   margin: 25px 10vw;
+}
+
+.img-portada{
+    width: 50%;
+}
+
+.info-portada {
+   width: 40%; 
+   flex-direction: column; 
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.info-portada h1 {
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -0.035em;
+    text-align: right;
+    margin-top: 30px;
+    color: #232C50;
+
+}
+
+.info-portada p, .info-portada button {
+    margin-top: 40px;
+    
+}
+
+
+
+/*----------------------------------- DIVISOR ----------------------------------------*/
+
+
+.contenedor-divisor{
+    justify-content:space-between;
+    align-items: center; 
+    width: 100vw;
+    height: 168px;
+    padding: 0px 10vw;
+    background-color:#8B48BF;
+    
+}
+
+.titulo-divisor {
+    width: 45%;
+    font-size: 36px;
+    line-height: 41px;
+    color: #ffff;
+
+}
+
+.parrafo-divisor{
+    width: 40%;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #ffff;
+
+}
+
+
+
+/*----------------------------------- INFORMACION ----------------------------------------*/
+.contenedor-informacion{
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+    width: 100vw;
+}
+
+.primer-contenedor-informacion {
+    width: 80vw;
+    margin: 30px 0px;
+}
+
+.segundo-contenedor-informacion {
+    width: 30vw;
+}
+
+.contenedor-01 {
+    width: 50%;
+    padding: 30px;
+}
+
+
+.contenedor-02 {
+    width: 50%;
+    padding: 30px;
+    margin-left: 150px;
+}
+
+.contador {
+    width:70px;
+    height: 40px;
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+    background-color: #8B48BF;
+    margin-right: 10px;
+    font-family: "Be Vietnam Pro", sans-serif;;
+
+
+}
+
+h3 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.38px;
+    letter-spacing: -0.015em;
+    padding: 10px 0px;
+    height: 40px;
+
+    
+
+}
+
+.parrafo-informacion {
+    margin: 20px 0px 0px 80px;
+    font-size: 16.3px;
+    font-weight: 500;
+    line-height: 25.52px;
+    letter-spacing: -0.01em;
+    color:#B3B2B7;
+
+
+
+    
+
+}
+
+/*----------------------------------- SUBTITULO ----------------------------------------*/
+
+.subtitulo {
+    color: #242E53;
+    margin-top: 120px;
+    font-size: 39.21px;
+    line-height: 61.41px;
+    letter-spacing: -0.01em;
+    text-align: center;
+
+}
+
+/*----------------------------------- CARDS ----------------------------------------*/
+
+
+.cards {
+    
+    width: 80vw;
+    margin: 20px 10vw;
+    justify-content: space-between;
+}
+
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 254px;
+    background-color: #FAFAFA;
+}
+
+.card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Be Vietnam;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25.06px;
+    color:#B9B9C1;
+
+
+    
+}
+
+
+
+/*----------------------------------- SEGUNDO DIVISOR ----------------------------------------*/
+
+.segundo-divisor {
+    width: 100vw;
+    height: 224px;
+    background-color: #8B48BF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px;
+
+}
+
+.segundo-divisor h2 {
+    font-size: 40px;
+    line-height: 47.84px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #ffff;
+
+}
+
+.segundo-divisor button {
+    background-color: #ffff;
+    color: #8B48BF;
+    font-size: 13.18px;
+    font-weight: 500;
+    line-height: 19.26px;
+
+}
+
+/*/////////////////////////////////////// MEDIA QUERY /////////////////////////////////////////////////////*/
+
+
+    
+
+
+
+@media screen and (max-width: 480px) {
+
+    /*----------------------------------- PORTADA ----------------------------------------*/
+
+    .contenedor-portada {
+        flex-direction: column;
+    }
+
+    .img-portada {
+        width: 100%;
+    }
+
+    .info-portada {
+        width: 100%;
+        text-align: right;
+    }
+
+    /*----------------------------------- DIVISOR ----------------------------------------*/
+
+    .contenedor-divisor {
+        flex-direction: column;
+        width: 100%;
+        height: 306px;
+        background-color: #3CDDF3;
+        color: #ffff;
+    }
+
+    .titulo-divisor {
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .parrafo-divisor{
+        width: 100%;
+        height: 100%;
+    
+    }
+
+    /*----------------------------------- INFORMACION ----------------------------------------*/
+    .primer-contenedor-informacion{
+        flex-direction: column;
+        width: 100%;
+        padding-top: 30px;
+
+    }
+
+    .primer-contenedor-informacion h3 {
+        margin-left: 30px;
+        background-color: #8B48BF4D;
+        border-radius: 50px 0 0 50px;
+
+    }
+  
+
+    .contenedor-01 {
+        width: 100%;
+        padding: 0px;
+        
+    }
+
+    .contenedor-02 {
+        width: 100%;
+        padding: 0px;
+        margin: 30px 0px;
+    }
+
+    .segundo-contenedor-informacion {
+        width: 100%;
+        margin-top: -30px;
+    }
+
+    .segundo-contenedor-informacion h3 {
+        margin-left: 30px;
+        background-color:#8B48BF4D;
+        border-radius: 50px 0 0 50px;
+        
+    }
+
+    /*----------------------------------- SUBTITULO ----------------------------------------*/
+    
+    .subtitulo {
+        margin: 0px;
+        padding: 40px;
+    }
+
+    /*----------------------------------- CARDS ----------------------------------------*/
+
+    .card-1, .card-3 {
+        display: none;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+
+    /*----------------------------------- SEGUNDO DIVISOR ----------------------------------------*/
+
+    .segundo-divisor {
+        flex-direction: column;
+        width: 100%;
+        height: 366px;
+        background-color:#3CDDF3;
+        padding: 40px;
+        
+    }
+
+    .segundo-divisor h2{
+        text-align: center;
+    }
+
+    .segundo-divisor button{
+        background-color: #232C50;
+        color: #ffff;
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    .segundo-divisor button:hover {
+        background-color: #8B48BF;
+    }
+
+
+
+
+}
